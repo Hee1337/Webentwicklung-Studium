@@ -1,1 +1,52 @@
 @import "node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+/* styles.css */
+ 
+.hero {
+    background-image: url('img/heroIMG.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh; /* Hero-Bereich auf 50% der Viewport-Höhe setzen */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+
+
+/* Platz für die fixierte Navbar */
+body {
+    padding-top: 0px; /* Höhe der Navbar (z. B. 70px) */
+    
+}
+
+ /* LTR-Layout */
+  .ltr {
+    direction: ltr;
+}
+.ltr .navbar-nav {
+    margin-left: 0;
+    margin-right: auto;
+}
+/* RTL-Layout */
+.rtl {
+    direction: rtl;
+}
+.rtl .navbar-nav {
+    margin-right: 0;
+    margin-left: auto;
+}
+
+table {
+    width: 100%;
+}
+
+
